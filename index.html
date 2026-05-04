@@ -98,7 +98,7 @@
                 </g>
               </svg>
             </span>
-            <span class="app-brand-text demo menu-text fw-bolder ms-2">SHE IS ELECTRIC</span>
+            <span class="app-brand-text demo menu-text fw-bolder ms-2">NyalaIn</span>
           </a>
 
           <a href="javascript:void(0);" class="layout-menu-toggle menu-link text-large ms-auto d-block d-xl-none">
@@ -207,22 +207,19 @@
 
         <!-- / Navbar -->
 
-        <!-- Content wrapper -->
         <div class="content-wrapper">
-          <!-- Content -->
-
           <div class="container-xxl flex-grow-1 container-p-y">
 
             <div
               class="d-flex flex-column flex-md-row justify-content-between align-items-start align-items-md-center mb-4 gap-3">
               <div>
-                <h3 class="fw-bold mb-1 text-dark">Dashboard</h3>
-                <span class="text-muted">Real-time monitoring and control system</span>
+                <h3 class="fw-bold mb-1 text-dark">Dashboard Ruangan</h3>
+                <span class="text-muted">Sistem Monitoring & Kontrol IoT Real-time</span>
               </div>
               <div class="d-flex align-items-center gap-2">
                 <div class="btn-group" role="group">
                   <button type="button" class="btn btn-primary d-flex align-items-center gap-2">
-                    <i class="bx bx-chip"></i> Auto
+                    <i class="bx bx-chip"></i> Otomatis
                   </button>
                   <button type="button" class="btn btn-outline-secondary d-flex align-items-center gap-2 bg-white">
                     <i class="bx bx-pointer"></i> Manual
@@ -239,41 +236,54 @@
                 <div class="card h-100">
                   <div class="card-header d-flex justify-content-between align-items-center pb-3">
                     <h5 class="mb-0 d-flex align-items-center text-dark fw-bold">
-                      <i class="bx bx-cube text-primary fs-4 me-2"></i> Virtual Coop
+                      <i class="bx bx-home-smile text-primary fs-4 me-2"></i> Status Ruangan
                     </h5>
                     <span class="badge bg-label-danger rounded-pill fw-bold px-3 py-2">
-                      <i class="bx bxs-hot me-1"></i> Too Hot
+                      <i class="bx bxs-hot me-1"></i> Suhu > 30°C
                     </span>
                   </div>
                   <div class="card-body">
                     <div class="w-100 rounded d-flex justify-content-center align-items-end"
-                      style="background-color: #87CEEB; min-height: 380px; position: relative; overflow: hidden;">
+                      style="background-color: #2c3e50; min-height: 380px; position: relative; overflow: hidden;">
+
                       <div
-                        style="width: 70%; height: 60%; background-color: #9c6c42; border: 6px solid #5C3A21; position: relative; border-bottom: none;">
+                        style="position: absolute; top: 50px; right: 50px; width: 100px; height: 120px; background-color: #1a252f; border: 4px solid #7f8c8d; border-radius: 8px; display: flex; justify-content: center; align-items: center;">
+                        <i class="bx bxs-moon text-warning fs-1"></i>
+                      </div>
+
+                      <div
+                        style="position: absolute; bottom: 20px; left: 15%; display: flex; flex-direction: column; align-items: center; z-index: 2;">
                         <div
-                          style="position: absolute; top: -50px; left: -20px; right: -20px; height: 0; border-left: 180px solid transparent; border-right: 180px solid transparent; border-bottom: 50px solid #5C3A21;">
+                          style="width: 70px; height: 70px; border-radius: 50%; border: 4px solid #7f8c8d; display: flex; justify-content: center; align-items: center; background-color: #34495e; position: relative;">
+                          <i class="bx bx-aperture bx-spin" style="font-size: 4rem; color: #bdc3c7;"></i>
                         </div>
+                        <div style="width: 8px; height: 90px; background-color: #7f8c8d; margin-top: -2px;"></div>
                         <div
-                          style="position: absolute; bottom: 0; left: 50%; transform: translateX(-50%); width: 60px; height: 80px; background-color: #5C3A21; border-top-left-radius: 30px; border-top-right-radius: 30px;">
-                          <div
-                            style="position: absolute; right: 10px; top: 40px; width: 8px; height: 8px; background-color: #f1c40f; border-radius: 50%;">
-                          </div>
-                        </div>
-                        <div
-                          style="position: absolute; top: 10px; left: 50%; transform: translateX(-50%); width: 20px; height: 10px; background-color: #555; border-radius: 10px;">
-                          <div
-                            style="position: absolute; top: 10px; left: 5px; width: 10px; height: 10px; background-color: #fff; border-radius: 50%; box-shadow: 0 0 10px #fff;">
-                          </div>
-                        </div>
-                        <div style="position: absolute; bottom: 10px; left: 20px; font-size: 2rem;">🐔</div>
-                        <div
-                          style="position: absolute; right: -15px; top: 40%; width: 30px; height: 30px; background-color: #333; border-radius: 50%; border: 3px solid #555; display: flex; align-items: center; justify-content: center;">
-                          <i class="bx bx-right-arrow-alt text-white fs-6"></i>
+                          style="width: 45px; height: 12px; background-color: #95a5a6; border-radius: 10px 10px 0 0;">
                         </div>
                       </div>
+
                       <div
-                        style="position: absolute; bottom: 0; left: 0; right: 0; height: 10px; background-color: #5C3A21;">
+                        style="position: absolute; bottom: 85px; left: 35%; color: #bdc3c7; opacity: 0.6; z-index: 1;">
+                        <i class="bx bx-wind" style="font-size: 2.5rem;"></i>
                       </div>
+
+                      <div
+                        style="position: absolute; top: 0; left: 50%; transform: translateX(-50%); width: 6px; height: 60px; background-color: #7f8c8d;">
+                        <div
+                          style="position: absolute; bottom: -20px; left: -25px; width: 56px; height: 25px; background-color: #bdc3c7; border-radius: 30px 30px 0 0;">
+                          <div
+                            style="position: absolute; bottom: -10px; left: 18px; width: 20px; height: 20px; background-color: #f1c40f; border-radius: 50%; box-shadow: 0 0 40px 20px rgba(241, 196, 15, 0.4);">
+                          </div>
+                        </div>
+                      </div>
+
+                      <div style="position: absolute; bottom: 20px; font-size: 5rem; z-index: 2;">💻</div>
+
+                      <div
+                        style="position: absolute; bottom: 0; left: 0; right: 0; height: 20px; background-color: #95a5a6; z-index: 1;">
+                      </div>
+
                     </div>
                   </div>
                 </div>
@@ -286,21 +296,20 @@
                     <div class="card h-100">
                       <div class="card-body">
                         <div class="d-flex align-items-center mb-2">
-                          <i class="bx bxs-thermometer text-primary fs-5 me-2"></i>
-                          <h6 class="text-muted mb-0 fw-semibold">Temperature</h6>
+                          <i class="bx bxs-thermometer text-danger fs-5 me-2"></i>
+                          <h6 class="text-muted mb-0 fw-semibold">Suhu Udara</h6>
                         </div>
                         <div class="d-flex align-items-baseline mb-3 mt-3">
-                          <h1 class="mb-0 me-1 fw-bold text-dark">36.0</h1>
+                          <h1 class="mb-0 me-1 fw-bold text-dark">32.5</h1>
                           <span class="text-muted fw-semibold">&deg;C</span>
                         </div>
                         <div class="progress mb-3" style="height: 6px; background-color: #e9ecef;">
-                          <div class="progress-bar bg-primary rounded" role="progressbar" style="width: 85%"
+                          <div class="progress-bar bg-danger rounded" role="progressbar" style="width: 85%"
                             aria-valuenow="85" aria-valuemin="0" aria-valuemax="100"></div>
                         </div>
                         <div class="d-flex justify-content-between align-items-center" style="font-size: 0.75rem;">
-                          <span class="text-muted fw-semibold">Min 32.2</span>
-                          <span class="badge bg-label-success rounded-pill px-2">Optimal</span>
-                          <span class="text-muted fw-semibold">Max 35.0</span>
+                          <span class="text-muted fw-semibold">Batas 30.0&deg;C</span>
+                          <span class="badge bg-label-danger rounded-pill px-2">Panas</span>
                         </div>
                       </div>
                     </div>
@@ -310,21 +319,21 @@
                     <div class="card h-100">
                       <div class="card-body">
                         <div class="d-flex align-items-center mb-2">
-                          <i class="bx bxs-droplet text-primary fs-5 me-2"></i>
-                          <h6 class="text-muted mb-0 fw-semibold">Humidity</h6>
+                          <i class="bx bxs-droplet text-info fs-5 me-2"></i>
+                          <h6 class="text-muted mb-0 fw-semibold">Kelembapan</h6>
                         </div>
                         <div class="d-flex align-items-baseline mb-3 mt-3">
                           <h1 class="mb-0 me-1 fw-bold text-dark">69.4</h1>
                           <span class="text-muted fw-semibold">%</span>
                         </div>
                         <div class="progress mb-3" style="height: 6px; background-color: #e9ecef;">
-                          <div class="progress-bar bg-dark rounded" role="progressbar" style="width: 75%"
-                            aria-valuenow="75" aria-valuemin="0" aria-valuemax="100"></div>
+                          <div class="progress-bar bg-info rounded" role="progressbar" style="width: 69%"
+                            aria-valuenow="69" aria-valuemin="0" aria-valuemax="100"></div>
                         </div>
                         <div class="d-flex justify-content-between align-items-center" style="font-size: 0.75rem;">
-                          <span class="text-muted fw-semibold">Min 60</span>
-                          <span class="badge bg-label-success rounded-pill px-2">Optimal</span>
-                          <span class="text-muted fw-semibold">Max 70</span>
+                          <span class="text-muted fw-semibold">Min 50%</span>
+                          <span class="badge bg-label-success rounded-pill px-2">Normal</span>
+                          <span class="text-muted fw-semibold">Max 75%</span>
                         </div>
                       </div>
                     </div>
@@ -334,16 +343,16 @@
                     <div class="card h-100">
                       <div class="card-body">
                         <div class="d-flex align-items-center mb-2">
-                          <i class="bx bx-sun text-primary fs-5 me-2"></i>
-                          <h6 class="text-muted mb-0 fw-semibold">Light</h6>
+                          <i class="bx bx-sun text-warning fs-5 me-2"></i>
+                          <h6 class="text-muted mb-0 fw-semibold">Intensitas Cahaya</h6>
                         </div>
                         <div class="d-flex align-items-baseline mb-4 mt-3">
                           <h1 class="mb-0 me-1 fw-bold text-dark">46</h1>
                           <span class="text-muted fw-semibold">lux</span>
                         </div>
                         <div class="bg-label-secondary rounded p-2 d-flex align-items-center">
-                          <i class="bx bxs-moon text-warning fs-5 me-2"></i>
-                          <span class="fw-semibold text-dark" style="font-size: 0.85rem;">Nighttime</span>
+                          <i class="bx bxs-moon text-dark fs-5 me-2"></i>
+                          <span class="fw-semibold text-dark" style="font-size: 0.85rem;">Cahaya Rendah (Gelap)</span>
                         </div>
                       </div>
                     </div>
@@ -354,33 +363,32 @@
                       <div class="card-body pb-3">
                         <div class="d-flex align-items-center border-bottom pb-2 mb-3">
                           <i class="bx bx-slider-alt text-primary fs-5 me-2"></i>
-                          <h6 class="text-dark mb-0 fw-bold">Control</h6>
+                          <h6 class="text-dark mb-0 fw-bold">Kontrol Perangkat</h6>
                         </div>
 
                         <div class="d-flex justify-content-between align-items-center mb-3">
                           <div class="d-flex align-items-center">
-                            <i class="bx bx-bulb fs-3 text-secondary me-3"></i>
+                            <i class="bx bx-bulb fs-3 text-warning me-3"></i>
                             <div>
-                              <h6 class="mb-0 text-dark fw-bold">Heater</h6>
-                              <small class="text-muted">OFF (Auto)</small>
+                              <h6 class="mb-0 text-dark fw-bold">Lampu 5V</h6>
+                              <small class="text-muted">ON (Auto - Gelap)</small>
                             </div>
                           </div>
                           <div class="form-check form-switch mb-0">
-                            <input class="form-check-input fs-4" type="checkbox" id="heaterSwitch" disabled>
+                            <input class="form-check-input fs-4" type="checkbox" id="lampuSwitch" checked disabled>
                           </div>
                         </div>
 
                         <div class="d-flex justify-content-between align-items-center">
                           <div class="d-flex align-items-center">
-                            <i class="bx bx-aperture fs-3 text-primary me-3"></i>
-                            <div style="min-width: 90px;">
-                              <h6 class="mb-0 text-dark fw-bold">Fan</h6>
-                              <small class="text-muted">Speed 30% (Auto)</small>
+                            <i class="bx bx-aperture fs-3 text-primary me-3 bx-spin"></i>
+                            <div>
+                              <h6 class="mb-0 text-dark fw-bold">Kipas</h6>
+                              <small class="text-muted">ON (Auto - >30°C)</small>
                             </div>
                           </div>
-                          <div class="w-100 ms-2 d-flex align-items-center gap-2">
-                            <input type="range" class="form-range" min="0" max="100" value="30" id="fanSpeed">
-                            <span class="fw-bold fs-6 text-dark">30%</span>
+                          <div class="form-check form-switch mb-0">
+                            <input class="form-check-input fs-4" type="checkbox" id="kipasSwitch" checked disabled>
                           </div>
                         </div>
                       </div>
@@ -392,12 +400,12 @@
                       <div class="card-header d-flex justify-content-between align-items-center pb-0">
                         <div class="d-flex align-items-center">
                           <i class="bx bx-line-chart text-primary fs-5 me-2"></i>
-                          <h6 class="text-dark mb-0 fw-bold">24H History</h6>
+                          <h6 class="text-dark mb-0 fw-bold">Riwayat 24 Jam</h6>
                         </div>
                         <div class="btn-group btn-group-sm" role="group">
-                          <button type="button" class="btn btn-primary rounded-pill px-3">Temp</button>
+                          <button type="button" class="btn btn-primary rounded-pill px-3">Suhu</button>
                           <button type="button"
-                            class="btn border-0 rounded-pill px-3 bg-label-secondary text-muted">Hum</button>
+                            class="btn border-0 rounded-pill px-3 bg-label-secondary text-muted">Kelembapan</button>
                         </div>
                       </div>
                       <div class="card-body pt-3">
@@ -405,18 +413,17 @@
                           <div
                             style="flex: 1; border-left: 1px solid #e0e0e0; border-bottom: 1px solid #e0e0e0; position: relative; background: repeating-linear-gradient(0deg, transparent, transparent 19px, #f5f5f5 20px);">
                             <svg width="100%" height="100%" preserveAspectRatio="none" viewBox="0 0 100 100">
-                              <polyline points="0,60 10,50 20,65 30,55 40,60 50,45 60,50 70,40 80,60 90,55 100,55"
+                              <polyline points="0,60 10,50 20,65 30,55 40,60 50,45 60,50 70,40 80,20 90,15 100,10"
                                 fill="none" stroke="#ff4d4d" stroke-width="2" />
-                              <circle cx="10" cy="50" r="2" fill="#ff4d4d" />
-                              <circle cx="30" cy="55" r="2" fill="#ff4d4d" />
-                              <circle cx="50" cy="45" r="2" fill="#ff4d4d" />
-                              <circle cx="70" cy="40" r="2" fill="#ff4d4d" />
+                              <circle cx="80" cy="20" r="3" fill="#ff4d4d" />
+                              <circle cx="90" cy="15" r="3" fill="#ff4d4d" />
+                              <circle cx="100" cy="10" r="3" fill="#ff4d4d" />
                             </svg>
                           </div>
                           <div class="d-flex justify-content-between mt-2 px-1 text-muted" style="font-size: 0.65rem;">
-                            <span style="transform: rotate(-45deg);">0:00</span>
-                            <span style="transform: rotate(-45deg);">4:00</span>
-                            <span style="transform: rotate(-45deg);">8:00</span>
+                            <span style="transform: rotate(-45deg);">00:00</span>
+                            <span style="transform: rotate(-45deg);">04:00</span>
+                            <span style="transform: rotate(-45deg);">08:00</span>
                             <span style="transform: rotate(-45deg);">12:00</span>
                             <span style="transform: rotate(-45deg);">16:00</span>
                             <span style="transform: rotate(-45deg);">20:00</span>
@@ -432,24 +439,27 @@
                         class="card-header d-flex justify-content-between align-items-center pb-2 border-bottom mb-2">
                         <div class="d-flex align-items-center">
                           <i class="bx bx-list-ul text-primary fs-5 me-2"></i>
-                          <h6 class="text-dark mb-0 fw-bold">System Log</h6>
+                          <h6 class="text-dark mb-0 fw-bold">Log Sistem (MQTT)</h6>
                         </div>
                         <button class="btn btn-sm btn-outline-secondary p-1 border-0 bg-label-secondary">
                           <i class="bx bx-trash text-dark"></i>
                         </button>
                       </div>
                       <div class="card-body" style="font-size: 0.8rem; overflow-y: auto; max-height: 150px;">
-                        <div class="border-start border-2 border-success ps-2 mb-3 text-success">
-                          [3:38:38 PM] Connected to MQTT
-                        </div>
-                        <div class="border-start border-2 border-success ps-2 mb-3 text-success">
-                          [3:38:37 PM] System ready
+                        <div class="border-start border-2 border-danger ps-2 mb-3 text-danger">
+                          [20:10:05] ALERT: Suhu ruangan 32.5°C melebihi batas threshold (30°C).
                         </div>
                         <div class="border-start border-2 border-primary ps-2 mb-3 text-primary">
-                          System initialized
+                          [20:10:05] CMD: Kipas otomatis dinyalakan.
+                        </div>
+                        <div class="border-start border-2 border-warning ps-2 mb-3 text-warning">
+                          [18:30:12] ALERT: Intensitas cahaya 46 lux (Rendah).
+                        </div>
+                        <div class="border-start border-2 border-primary ps-2 mb-3 text-primary">
+                          [18:30:12] CMD: Lampu otomatis dinyalakan.
                         </div>
                         <div class="border-start border-2 border-success ps-2 mb-3 text-success">
-                          Waiting for data.
+                          [18:25:00] Terhubung ke broker HiveMQ.
                         </div>
                       </div>
                     </div>
@@ -459,9 +469,6 @@
               </div>
             </div>
           </div>
-          <!-- / Content -->
-
-          <!-- Footer -->
           <footer class="content-footer footer bg-footer-theme">
             <div class="container-xxl d-flex flex-wrap justify-content-between py-2 flex-md-row flex-column">
               <div class="mb-2 mb-md-0">
@@ -469,16 +476,13 @@
                 <script>
                   document.write(new Date().getFullYear());
                 </script>
-                , made with ❤️ by
-                <a href="https://themeselection.com" target="_blank" class="footer-link fw-bolder">Nadira</a>
+                , IoT Project Dashboard by
+                <a href="#" class="footer-link fw-bolder">Bayu Slamet Hidayat</a>
               </div>
             </div>
           </footer>
-          <!-- / Footer -->
-
           <div class="content-backdrop fade"></div>
         </div>
-        <!-- Content wrapper -->
       </div>
       <!-- / Layout page -->
     </div>

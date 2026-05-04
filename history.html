@@ -98,7 +98,7 @@
                 </g>
               </svg>
             </span>
-            <span class="app-brand-text demo menu-text fw-bolder ms-2">SHE IS ELECTRIC</span>
+            <span class="app-brand-text demo menu-text fw-bolder ms-2">NyalaIn</span>
           </a>
 
           <a href="javascript:void(0);" class="layout-menu-toggle menu-link text-large ms-auto d-block d-xl-none">
@@ -213,8 +213,8 @@
 
             <div class="d-flex justify-content-between align-items-center mb-4">
               <div>
-                <h3 class="fw-bold mb-1 text-dark">History</h3>
-                <span class="text-muted">Historical data records</span>
+                <h3 class="fw-bold mb-1 text-dark">Riwayat Data</h3>
+                <span class="text-muted">Rekaman data historis sensor dan perangkat</span>
               </div>
               <div class="d-flex gap-2">
                 <button class="btn btn-outline-secondary bg-white p-2 border">
@@ -231,7 +231,7 @@
                 <div class="card h-100">
                   <div class="card-body py-3 d-flex flex-column justify-content-center">
                     <div class="d-flex align-items-baseline gap-2">
-                      <span class="text-muted fw-bold" style="font-size: 0.75rem;">TOTAL</span>
+                      <span class="text-muted fw-bold" style="font-size: 0.75rem;">TOTAL DATA</span>
                       <h3 class="mb-0 fw-bold text-dark">156</h3>
                     </div>
                   </div>
@@ -242,7 +242,7 @@
                 <div class="card h-100">
                   <div class="card-body py-3 d-flex flex-column justify-content-center">
                     <div class="d-flex align-items-baseline gap-2">
-                      <span class="text-muted fw-bold" style="font-size: 0.75rem;">ALERTS</span>
+                      <span class="text-muted fw-bold" style="font-size: 0.75rem;">PERINGATAN</span>
                       <h3 class="mb-0 fw-bold text-danger">23</h3>
                     </div>
                   </div>
@@ -264,7 +264,7 @@
                 <div class="card h-100">
                   <div class="card-body py-3 d-flex flex-column justify-content-center">
                     <div class="d-flex align-items-baseline gap-2">
-                      <span class="text-muted fw-bold" style="font-size: 0.75rem;">RATE</span>
+                      <span class="text-muted fw-bold" style="font-size: 0.75rem;">TINGKAT AMAN</span>
                       <h3 class="mb-0 fw-bold text-dark">85.3%</h3>
                     </div>
                   </div>
@@ -275,31 +275,31 @@
             <div class="row mb-4 g-3">
               <div class="col-md-3">
                 <div class="card">
-                  <select class="form-select border-0 bg-transparent text-dark fw-semibold"
-                    aria-label="Default select example" style="box-shadow: none;">
-                    <option selected>Today</option>
-                    <option value="1">Yesterday</option>
-                    <option value="2">Last 7 Days</option>
-                    <option value="3">This Month</option>
+                  <select class="form-select border-0 bg-transparent text-dark fw-semibold" aria-label="Filter Waktu"
+                    style="box-shadow: none;">
+                    <option selected>Hari Ini</option>
+                    <option value="1">Kemarin</option>
+                    <option value="2">7 Hari Terakhir</option>
+                    <option value="3">Bulan Ini</option>
                   </select>
                 </div>
               </div>
 
               <div class="col-md-3">
                 <div class="card">
-                  <select class="form-select border-0 bg-transparent text-dark fw-semibold"
-                    aria-label="Default select example" style="box-shadow: none;">
-                    <option selected>All</option>
+                  <select class="form-select border-0 bg-transparent text-dark fw-semibold" aria-label="Filter Status"
+                    style="box-shadow: none;">
+                    <option selected>Semua Status</option>
                     <option value="1">Normal</option>
-                    <option value="2">Alert</option>
-                    <option value="3">Cold</option>
+                    <option value="2">Panas (>30°C)</option>
+                    <option value="3">Gelap (Cahaya Rendah)</option>
                   </select>
                 </div>
               </div>
 
               <div class="col-md-6">
                 <div class="card">
-                  <input type="text" class="form-control border-0 bg-transparent text-muted" placeholder="Search."
+                  <input type="text" class="form-control border-0 bg-transparent text-muted" placeholder="Cari data..."
                     aria-label="Search" style="box-shadow: none;">
                 </div>
               </div>
@@ -308,7 +308,7 @@
             <div class="card">
               <div class="card-header d-flex align-items-center pb-2 border-bottom">
                 <i class="bx bx-table text-primary fs-5 me-2"></i>
-                <h6 class="mb-0 fw-bold text-dark">Data History</h6>
+                <h6 class="mb-0 fw-bold text-dark">Log Sensor & Kontrol</h6>
               </div>
 
               <div class="table-responsive text-nowrap" style="min-height: 400px;">
@@ -316,17 +316,17 @@
                   <thead class="table-light">
                     <tr>
                       <th class="fw-bold text-dark text-center" style="font-size: 0.75rem; text-transform: capitalize;">
-                        Time</th>
+                        Waktu</th>
                       <th class="fw-bold text-dark text-center" style="font-size: 0.75rem; text-transform: capitalize;">
-                        Temp</th>
+                        Suhu</th>
                       <th class="fw-bold text-dark text-center" style="font-size: 0.75rem; text-transform: capitalize;">
-                        Hum</th>
+                        Kelembapan</th>
                       <th class="fw-bold text-dark text-center" style="font-size: 0.75rem; text-transform: capitalize;">
-                        Light</th>
+                        Cahaya</th>
                       <th class="fw-bold text-dark text-center" style="font-size: 0.75rem; text-transform: capitalize;">
-                        Heater</th>
+                        Lampu 5V</th>
                       <th class="fw-bold text-dark text-center" style="font-size: 0.75rem; text-transform: capitalize;">
-                        Fan</th>
+                        Kipas</th>
                       <th class="fw-bold text-dark text-center" style="font-size: 0.75rem; text-transform: capitalize;">
                         Status</th>
                     </tr>
@@ -334,11 +334,32 @@
                   <tbody class="table-border-bottom-0 text-center">
 
                     <tr>
-                      <td><span class="text-dark" style="font-size: 0.85rem;">5/4/2026, 3:38:38 PM</span></td>
+                      <td><span class="text-dark" style="font-size: 0.85rem;">4/5/2026, 20:15:00</span></td>
                       <td><span class="text-danger fw-semibold" style="font-size: 0.85rem;">32.4°C</span></td>
-                      <td><span class="text-primary fw-semibold"
-                          style="font-size: 0.85rem; color: #007bff !important;">65.4%</span></td>
-                      <td><span class="text-dark" style="font-size: 0.85rem;">488 lux</span></td>
+                      <td><span class="text-info fw-semibold" style="font-size: 0.85rem;">65.4%</span></td>
+                      <td><span class="text-warning fw-semibold" style="font-size: 0.85rem;">45 lux</span></td>
+                      <td><span class="badge bg-label-success" style="font-size: 0.7rem;">ON</span></td>
+                      <td><span class="badge bg-label-success" style="font-size: 0.7rem;">ON</span></td>
+                      <td><span class="badge bg-label-danger rounded-pill px-3"
+                          style="font-size: 0.75rem;">Peringatan</span></td>
+                    </tr>
+
+                    <tr>
+                      <td><span class="text-dark" style="font-size: 0.85rem;">4/5/2026, 19:30:00</span></td>
+                      <td><span class="text-success fw-semibold" style="font-size: 0.85rem;">29.1°C</span></td>
+                      <td><span class="text-info fw-semibold" style="font-size: 0.85rem;">68.0%</span></td>
+                      <td><span class="text-warning fw-semibold" style="font-size: 0.85rem;">30 lux</span></td>
+                      <td><span class="badge bg-label-success" style="font-size: 0.7rem;">ON</span></td>
+                      <td><span class="badge bg-label-secondary" style="font-size: 0.7rem;">OFF</span></td>
+                      <td><span class="badge bg-label-warning rounded-pill px-3"
+                          style="font-size: 0.75rem;">Gelap</span></td>
+                    </tr>
+
+                    <tr>
+                      <td><span class="text-dark" style="font-size: 0.85rem;">4/5/2026, 14:00:00</span></td>
+                      <td><span class="text-success fw-semibold" style="font-size: 0.85rem;">28.5°C</span></td>
+                      <td><span class="text-info fw-semibold" style="font-size: 0.85rem;">60.5%</span></td>
+                      <td><span class="text-dark" style="font-size: 0.85rem;">850 lux</span></td>
                       <td><span class="badge bg-label-secondary" style="font-size: 0.7rem;">OFF</span></td>
                       <td><span class="badge bg-label-secondary" style="font-size: 0.7rem;">OFF</span></td>
                       <td><span class="badge bg-label-success rounded-pill px-3"
@@ -346,116 +367,32 @@
                     </tr>
 
                     <tr>
-                      <td><span class="text-dark" style="font-size: 0.85rem;">5/4/2026, 3:38:38 PM</span></td>
-                      <td><span class="text-danger fw-semibold" style="font-size: 0.85rem;">31.7°C</span></td>
-                      <td><span class="text-primary fw-semibold"
-                          style="font-size: 0.85rem; color: #007bff !important;">60.0%</span></td>
-                      <td><span class="text-dark" style="font-size: 0.85rem;">311 lux</span></td>
-                      <td><span class="badge bg-label-success"
-                          style="font-size: 0.7rem; background-color: #d1f2e6 !important; color: #20c997 !important;">ON</span>
-                      </td>
-                      <td><span class="badge bg-label-secondary" style="font-size: 0.7rem;">OFF</span></td>
-                      <td><span class="badge bg-label-primary rounded-pill px-3"
-                          style="font-size: 0.75rem; background-color: #e0f0ff !important; color: #007bff !important;">Cold</span>
-                      </td>
-                    </tr>
-
-                    <tr>
-                      <td><span class="text-dark" style="font-size: 0.85rem;">5/4/2026, 3:38:38 PM</span></td>
+                      <td><span class="text-dark" style="font-size: 0.85rem;">4/5/2026, 12:45:00</span></td>
                       <td><span class="text-danger fw-semibold" style="font-size: 0.85rem;">33.9°C</span></td>
-                      <td><span class="text-primary fw-semibold"
-                          style="font-size: 0.85rem; color: #007bff !important;">67.9%</span></td>
-                      <td><span class="text-dark" style="font-size: 0.85rem;">452 lux</span></td>
+                      <td><span class="text-info fw-semibold" style="font-size: 0.85rem;">55.2%</span></td>
+                      <td><span class="text-dark" style="font-size: 0.85rem;">920 lux</span></td>
                       <td><span class="badge bg-label-secondary" style="font-size: 0.7rem;">OFF</span></td>
-                      <td><span class="badge bg-label-secondary" style="font-size: 0.7rem;">OFF</span></td>
-                      <td><span class="badge bg-label-success rounded-pill px-3"
-                          style="font-size: 0.75rem;">Normal</span></td>
-                    </tr>
-
-                    <tr>
-                      <td><span class="text-dark" style="font-size: 0.85rem;">5/4/2026, 3:38:38 PM</span></td>
-                      <td><span class="text-danger fw-semibold" style="font-size: 0.85rem;">31.7°C</span></td>
-                      <td><span class="text-primary fw-semibold"
-                          style="font-size: 0.85rem; color: #007bff !important;">62.3%</span></td>
-                      <td><span class="text-dark" style="font-size: 0.85rem;">424 lux</span></td>
-                      <td><span class="badge bg-label-success"
-                          style="font-size: 0.7rem; background-color: #d1f2e6 !important; color: #20c997 !important;">ON</span>
-                      </td>
-                      <td><span class="badge bg-label-secondary" style="font-size: 0.7rem;">OFF</span></td>
-                      <td><span class="badge bg-label-primary rounded-pill px-3"
-                          style="font-size: 0.75rem; background-color: #e0f0ff !important; color: #007bff !important;">Cold</span>
+                      <td><span class="badge bg-label-success" style="font-size: 0.7rem;">ON</span></td>
+                      <td><span class="badge bg-label-danger rounded-pill px-3" style="font-size: 0.75rem;">Panas</span>
                       </td>
                     </tr>
 
                     <tr>
-                      <td><span class="text-dark" style="font-size: 0.85rem;">5/4/2026, 3:38:38 PM</span></td>
-                      <td><span class="text-danger fw-semibold" style="font-size: 0.85rem;">32.2°C</span></td>
-                      <td><span class="text-primary fw-semibold"
-                          style="font-size: 0.85rem; color: #007bff !important;">67.6%</span></td>
-                      <td><span class="text-dark" style="font-size: 0.85rem;">819 lux</span></td>
+                      <td><span class="text-dark" style="font-size: 0.85rem;">4/5/2026, 11:15:00</span></td>
+                      <td><span class="text-danger fw-semibold" style="font-size: 0.85rem;">31.2°C</span></td>
+                      <td><span class="text-info fw-semibold" style="font-size: 0.85rem;">58.7%</span></td>
+                      <td><span class="text-dark" style="font-size: 0.85rem;">780 lux</span></td>
                       <td><span class="badge bg-label-secondary" style="font-size: 0.7rem;">OFF</span></td>
-                      <td><span class="badge bg-label-secondary" style="font-size: 0.7rem;">OFF</span></td>
-                      <td><span class="badge bg-label-success rounded-pill px-3"
-                          style="font-size: 0.75rem;">Normal</span></td>
-                    </tr>
-
-                    <tr>
-                      <td><span class="text-dark" style="font-size: 0.85rem;">5/4/2026, 3:38:38 PM</span></td>
-                      <td><span class="text-danger fw-semibold" style="font-size: 0.85rem;">31.6°C</span></td>
-                      <td><span class="text-primary fw-semibold"
-                          style="font-size: 0.85rem; color: #007bff !important;">68.8%</span></td>
-                      <td><span class="text-dark" style="font-size: 0.85rem;">368 lux</span></td>
-                      <td><span class="badge bg-label-success"
-                          style="font-size: 0.7rem; background-color: #d1f2e6 !important; color: #20c997 !important;">ON</span>
-                      </td>
-                      <td><span class="badge bg-label-secondary" style="font-size: 0.7rem;">OFF</span></td>
-                      <td><span class="badge bg-label-primary rounded-pill px-3"
-                          style="font-size: 0.75rem; background-color: #e0f0ff !important; color: #007bff !important;">Cold</span>
+                      <td><span class="badge bg-label-success" style="font-size: 0.7rem;">ON</span></td>
+                      <td><span class="badge bg-label-danger rounded-pill px-3" style="font-size: 0.75rem;">Panas</span>
                       </td>
                     </tr>
 
                     <tr>
-                      <td><span class="text-dark" style="font-size: 0.85rem;">5/4/2026, 3:38:38 PM</span></td>
-                      <td><span class="text-danger fw-semibold" style="font-size: 0.85rem;">34.3°C</span></td>
-                      <td><span class="text-primary fw-semibold"
-                          style="font-size: 0.85rem; color: #007bff !important;">64.3%</span></td>
-                      <td><span class="text-dark" style="font-size: 0.85rem;">726 lux</span></td>
-                      <td><span class="badge bg-label-secondary" style="font-size: 0.7rem;">OFF</span></td>
-                      <td><span class="badge bg-label-secondary" style="font-size: 0.7rem;">OFF</span></td>
-                      <td><span class="badge bg-label-success rounded-pill px-3"
-                          style="font-size: 0.75rem;">Normal</span></td>
-                    </tr>
-
-                    <tr>
-                      <td><span class="text-dark" style="font-size: 0.85rem;">5/4/2026, 3:38:38 PM</span></td>
-                      <td><span class="text-danger fw-semibold" style="font-size: 0.85rem;">33.1°C</span></td>
-                      <td><span class="text-primary fw-semibold"
-                          style="font-size: 0.85rem; color: #007bff !important;">66.2%</span></td>
-                      <td><span class="text-dark" style="font-size: 0.85rem;">669 lux</span></td>
-                      <td><span class="badge bg-label-secondary" style="font-size: 0.7rem;">OFF</span></td>
-                      <td><span class="badge bg-label-secondary" style="font-size: 0.7rem;">OFF</span></td>
-                      <td><span class="badge bg-label-success rounded-pill px-3"
-                          style="font-size: 0.75rem;">Normal</span></td>
-                    </tr>
-
-                    <tr>
-                      <td><span class="text-dark" style="font-size: 0.85rem;">5/4/2026, 3:38:38 PM</span></td>
-                      <td><span class="text-danger fw-semibold" style="font-size: 0.85rem;">33.6°C</span></td>
-                      <td><span class="text-primary fw-semibold"
-                          style="font-size: 0.85rem; color: #007bff !important;">64.8%</span></td>
-                      <td><span class="text-dark" style="font-size: 0.85rem;">494 lux</span></td>
-                      <td><span class="badge bg-label-secondary" style="font-size: 0.7rem;">OFF</span></td>
-                      <td><span class="badge bg-label-secondary" style="font-size: 0.7rem;">OFF</span></td>
-                      <td><span class="badge bg-label-success rounded-pill px-3"
-                          style="font-size: 0.75rem;">Normal</span></td>
-                    </tr>
-
-                    <tr>
-                      <td><span class="text-dark" style="font-size: 0.85rem;">5/4/2026, 3:38:38 PM</span></td>
-                      <td><span class="text-danger fw-semibold" style="font-size: 0.85rem;">33.2°C</span></td>
-                      <td><span class="text-primary fw-semibold"
-                          style="font-size: 0.85rem; color: #007bff !important;">62.7%</span></td>
-                      <td><span class="text-dark" style="font-size: 0.85rem;">826 lux</span></td>
+                      <td><span class="text-dark" style="font-size: 0.85rem;">4/5/2026, 09:30:00</span></td>
+                      <td><span class="text-success fw-semibold" style="font-size: 0.85rem;">27.8°C</span></td>
+                      <td><span class="text-info fw-semibold" style="font-size: 0.85rem;">62.1%</span></td>
+                      <td><span class="text-dark" style="font-size: 0.85rem;">640 lux</span></td>
                       <td><span class="badge bg-label-secondary" style="font-size: 0.7rem;">OFF</span></td>
                       <td><span class="badge bg-label-secondary" style="font-size: 0.7rem;">OFF</span></td>
                       <td><span class="badge bg-label-success rounded-pill px-3"
@@ -467,6 +404,7 @@
               </div>
             </div>
           </div>
+
           <footer class="content-footer footer bg-footer-theme">
             <div class="container-xxl d-flex flex-wrap justify-content-between py-2 flex-md-row flex-column">
               <div class="mb-2 mb-md-0">
@@ -474,8 +412,8 @@
                 <script>
                   document.write(new Date().getFullYear());
                 </script>
-                , made with ❤️ by
-                <a href="https://themeselection.com" target="_blank" class="footer-link fw-bolder">Nadira</a>
+                , IoT Project Dashboard by
+                <a href="#" class="footer-link fw-bolder">Bayu Slamet Hidayat</a>
               </div>
             </div>
           </footer>
